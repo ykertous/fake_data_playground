@@ -1,0 +1,150 @@
+,Priority,Essential,Essential.1,Essential.2,Essential.3,Essential.4,Essential.5,Essential.6,Essential.7,Essential.8,Low Priority,Low Priority.1,Low Priority.2
+0,Variable description,Whole slide image Identifier code ,Date where the sample used in the WSI was sampled ,"Source of the tissue sample (e.g., biopsy, surgical specimen).",Location of the tumor in the body,Pathological tumor stage at the time of diagnosis.,Pathological nodal stage at the time of diagnosis.,Pathological metastasis stage at the time of diagnosis.,Tumour histological grade at diagnosis,Histological caracterization made by the pathologist ,Epstein-Barr virus (EBV) contamination,Human Epidermal Growth Factor Receptor-2 (HER2) status ,The patient received a treatment before primary cancer treatment (such as surgery)
+1,Format/Unit,,MM/YYYY,,,,,,,,,,
+2,Data type,text,date,select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one)
+3,Priority,Essential,Essential,Essential,Essential,Essential,Essential,Essential,Essential,Essential,Low Priority,Low Priority,Low Priority
+4,Logic (Condition),,,,,,,,,,,,
+5,Logic item,,,,,,,,,,,,
+6,Logic action,,,,,,,,,,,,
+7,Logic value,,,,,,,,,,,,
+8,Comments,,,"*Biopsy is defined as the initial  procedure issued to detetermine the tumor is malignant (TEMS, other sample collection are excluded)
+only Biopsy are accepted for gastric ","check how center collects it, then if necessary, allow free text ",,,,,"check how center collects it, then if necessary, allow free text ",,,
+9,Patient ID,WSI ID,Date of sample,Sample type,Tumor location,pT,pN,pM,Tumor Grade,Histological subtypes,EBV,HER2,Neoadjuvant treatment
+10,Owkin_001,WSI_001_1,08/2021,Biopsy,Cardia,T4b,nan,М0,None,Signet ring,None,nan,No
+11,Owkin_002,WSI_002_1,09/2016,Biopsy,Cardia,T1b,N2,None,nan,None,, ,
+12,Owkin_003,WSI_003_1,03/2019,Biopsy,Antrum/pylorus,nan,N3,М0,None,Uk,,,nan
+13,Owkin_004,WSI_004_1,08/2016,Biopsy,None,T4,N3а,Uk,"High grade (poorly differentiated, undifferentiated)",poorly cohesive, ,, 
+14,Owkin_005,WSI_005_1,08/2024,Biopsy,,T4а,N0, , ,Uk,Positive,,
+15,Owkin_006,WSI_006_1,09/2018,Biopsy, ,T4b,N3a,M0,Uk, ,None,None,No
+16,Owkin_007,WSI_007_1,08/2022,Biopsy,nan,None,None, , , ,,None, 
+17,Owkin_008,WSI_008_1,08/2021,Biopsy,Antrum/pylorus,Т3,N3,Uk,Low grade,poorly cohesive,Positive,Positive,
+18,Owkin_009,WSI_009_1,10/2018,Biopsy,,None,,Uk,nan,,None,,nan
+19,Owkin_012,WSI_012_1,08/2021,Biopsy, ,T1b,N3а,,None,Poorly cohesive,Uk,Positive,No
+20,Owkin_014,WSI_014_1,10/2016,Biopsy,None,,None,None,Low grade,,Uk, ,
+21,Owkin_015,WSI_015_1,08/2020,Biopsy,Cardia,T2,N3b, ,,Signet ring,None,nan,No
+22,Owkin_016,WSI_016_1,02/2020,Biopsy,Cardia,T3, ,Uk,Uk, ,None,Negative,
+23,Owkin_018,WSI_018_1,11/2015,Biopsy,None,nan,None,Uk,Low grade, ,Uk,,None
+24,Owkin_019,WSI_019_1,03/2019,Biopsy, ,T2,,M1,nan,None,Positive, ,No
+25,,,,,,,,,,,,,
+26,,,,,,,,,,,,,
+27,Owkin_022,WSI_022_1,10/2018,Biopsy,nan,T1,N0,,"High grade (poorly differentiated, undifferentiated)",nan,Negative,Uk,nan
+28,Owkin_023,WSI_023_1,05/2016,Biopsy,Cardia,T4,N3а, ,"Low grade (well differentiated, moderately differentiated)",Signet ring,, , 
+29,Owkin_024,WSI_024_1,10/2016,Biopsy,Uk,Uk,N3, ,None,poorly cohesive,Positive,Negative,No
+30,Owkin_025,WSI_025_1,08/2021,Biopsy, ,None,N3а,М0, ,Mucinous,Positive,Uk, 
+31,Owkin_026,WSI_026_1,02/2015,Biopsy,Cardia, ,nan,M0,, ,None,Positive,
+32,Owkin_027,WSI_027_1,04/2017,Biopsy,Antrum/pylorus,T3,,М0,Low grade,Uk,None,Uk,None
+33,Owkin_029,WSI_029_1,08/2015,Biopsy,,T4a,N2,M0, ,None,nan,Positive,Uk
+34,Owkin_030,WSI_030_1,02/2017,Biopsy,Corpus,Т1а,N3а,Uk,Uk,Signet ring,None,nan,None
+35,Owkin_031,WSI_031_1,01/2019,Biopsy,nan,nan,Uk,M1,None,Mucinous,None,Negative,None
+36,Owkin_032,WSI_032_1,09/2019,Biopsy, ,T2,None,М0,nan,Poorly cohesive,Positive,Positive,No
+37,Owkin_033,WSI_033_1,07/2019,Biopsy,Antrum,None,N0,Uk,"High grade (poorly differentiated, undifferentiated)", ,Uk,nan,
+38,Owkin_034,WSI_034_1,11/2019,Biopsy,,T1b,nan,М0,None,,nan,,No
+39,Owkin_036,WSI_036_1,12/2018,Biopsy,Uk,T4а,N2,, ,Signet ring,nan,None,No
+40,Owkin_037,WSI_037_1,03/2016,Biopsy,,T1,N3а,M0,,,Positive,None,nan
+41,Owkin_038,WSI_038_1,06/2022,Biopsy,Corpus,T2,,nan,"Low grade (well differentiated, moderately differentiated)",Poorly cohesive,nan,Positive,nan
+42,Owkin_039,WSI_039_1,10/2024,Biopsy,Antrum,T4b,Uk,М0,Uk,Poorly cohesive, ,Uk,nan
+43,Owkin_040,WSI_040_2,06/2024,Biopsy,None,T2,N3a,,None,Poorly cohesive,,,nan
+44,Owkin_041,WSI_041_1,12/2022,Biopsy,,None,N0,,None,Uk,None,None,No
+45,Owkin_042,WSI_042_1,10/2018,Biopsy,Antrum,T1,nan,M0,"High grade (poorly differentiated, undifferentiated)",Uk,Negative,nan, 
+46,Owkin_044,WSI_044_1,02/2023,Biopsy,Antrum,Т1а,N3,,nan, ,None,Positive, 
+47,Owkin_045,WSI_045_1,06/2020,Biopsy,Uk,T4b,Uk,,Uk,Mucinous,Negative,Positive,
+48,Owkin_046,WSI_046_1,02/2017,Biopsy,Antrum,nan,N3b,М1,"High grade (poorly differentiated, undifferentiated)",nan,None,, 
+49,Owkin_047,WSI_047_1,10/2020,Biopsy,Corpus,Т3,N3a,М1, ,Poorly cohesive,, ,No
+50,Owkin_048,WSI_048_1,12/2020,Biopsy,Antrum/pylorus,T2,N3,M1,,nan,Positive,Negative,Uk
+51,Owkin_049,WSI_049_1,12/2023,Biopsy,,Т3,N1,,,poorly cohesive,, ,None
+52,Owkin_050,WSI_050_1,01/2018,Biopsy,Uk,T4а,N1,М0,nan,, ,Uk,nan
+53,Owkin_051,WSI_051_1,06/2020,Biopsy,Uk,Uk,N0, ,nan,Signet ring,,Uk,None
+54,Owkin_052,WSI_052_1,06/2016,Biopsy,Cardia,T4,N3a,None,,None,Negative,Positive,None
+55,Owkin_053,WSI_053_1,06/2024,Biopsy,nan,nan,N3a,M0,"Low grade (well differentiated, moderately differentiated)",Signet ring, ,Negative,
+56,Owkin_054,WSI_054_1,09/2018,Biopsy,Antrum,T3,N3a,nan,Uk,Poorly cohesive,Uk,None,
+57, , , , , , , , , , , , , 
+58,Owkin_056,WSI_056_1,09/2016,Biopsy,Cardia,,N3b,nan,,,nan,Negative,Uk
+59,Owkin_057,WSI_057_1,03/2017,Biopsy,,nan,nan,M0,"Low grade (well differentiated, moderately differentiated)", ,Uk,,No
+60,,,,,,,,,,,,,
+61,Owkin_059,WSI_059_1,04/2017,Biopsy,Cardia,T3,,None,Uk, ,None,Positive,
+62,Owkin_061,WSI_061_1,08/2023,Biopsy,None,T3,Uk,nan,"Low grade (well differentiated, moderately differentiated)",None,Positive,Negative,None
+63,Owkin_062,WSI_062_1,08/2019,Biopsy,,T1b,N1,M1,,poorly cohesive, ,None,None
+64,Owkin_063,WSI_063_1,12/2020,Biopsy,None,T3,None, ,"Low grade (well differentiated, moderately differentiated)",Uk,Uk,None,
+65,Owkin_064,WSI_064_1,05/2019,Biopsy,nan,,N3b,Uk,nan,nan,nan,nan,No
+66,Owkin_065,Gastric_065_2,02/2015,Biopsy, ,T1,Uk,Uk,None, ,Negative, ,None
+67,Owkin_043,Gastric_043,10/2022,Biopsy,,T4b,N3b,None,"Low grade (well differentiated, moderately differentiated)",nan, ,Negative,No
+68,Owkin_068,Gastric_068,04/2015,Biopsy,None,Т1а,N1,М0,"High grade (poorly differentiated, undifferentiated)",poorly cohesive,Negative,None,
+69,Owkin_069,Gastric_069_2,08/2017,Biopsy,,Т3,None,Uk, ,Signet ring,None,nan,No
+70,Owkin_070,Gastric_070_2,08/2016,Biopsy,None,T1,N2,М0,Low grade,Poorly cohesive,,nan,Uk
+71,Owkin_071,Gastric_071_2,08/2023,Biopsy,Cardia,T4a, ,М1, ,None,nan,nan,Uk
+72,Owkin_076,Gastric_076_2,01/2024,Biopsy,Cardia, ,N3а, ,nan,poorly cohesive,Positive,Negative,None
+73,Owkin_078,Gastric_078_2,10/2023,Biopsy,Uk,T4a,Uk,M1,Low grade,poorly cohesive,nan,Negative,nan
+74,Owkin_082,Gastric_082_2,06/2019,Biopsy,None,Т3,None,None,nan,Mucinous,None, ,Uk
+75,Owkin_083,Gastric_083_2,11/2021,Biopsy,Antrum/pylorus,T4b,N0,M1,,Intestinal,Positive,Negative,No
+76,Owkin_084,Gastric_084_2,10/2015,Biopsy,Cardia,T1,nan,,, ,Uk,, 
+77,,,,,,,,,,,,,
+78,Owkin_089,Gastric_089_2,11/2017,Biopsy,Uk,T1b,nan,М0,,Mucinous,None,nan,
+79,Owkin_091,Gastric_091_2,05/2017,Biopsy,Antrum/pylorus,T4а, ,None,Low grade,Signet ring,Positive,nan,nan
+80,Owkin_099,Gastric_099_2,12/2016,Biopsy,nan,Т1а,N2,Uk, , ,Positive,nan,No
+81,Owkin_101,Gastric_101_2,03/2016,Biopsy,nan,,N3а,M1,nan,Poorly cohesive,Positive,nan,
+82,Owkin_103,Gastric_103,06/2024,Biopsy,Cardia,None,N0,, , ,None,Uk,nan
+83,Owkin_105,Gastric_105_2,01/2019,Biopsy,Uk,T1,N3,Uk,None,None,Negative,None, 
+84,Owkin_106,Gastric_106_2,03/2021,Biopsy,Cardia,T2,nan,M1,nan,Mucinous,Negative,Negative,None
+85,Owkin_107,Gastric_107_2,03/2015,Biopsy,nan,T1,N2, ,,,None,Negative,None
+86,Owkin_108,Gastric_108_2,06/2020,Biopsy,,T1b,N3b,M1,None,Poorly cohesive,None,nan,nan
+87,Owkin_109,Gastric_109_2,02/2015,Biopsy,nan,T2,,М0,"Low grade (well differentiated, moderately differentiated)",Intestinal, ,Uk, 
+88,Owkin_110,Gastric_110_2,01/2015,Biopsy,Antrum/pylorus,T4a,N3а,,Uk,nan, ,nan,No
+89,Owkin_111,Gastric_111_2,11/2020,Biopsy,Antrum/pylorus,T4а, ,None,"Low grade (well differentiated, moderately differentiated)",None, ,, 
+90,Owkin_113,Gastric_113_2,01/2020,Biopsy,Uk,Т3, ,None,"High grade (poorly differentiated, undifferentiated)",Signet ring, ,Positive,nan
+91,Owkin_114,Gastric_114_2,08/2019,Biopsy,Antrum/pylorus,T4,,None,Uk,Intestinal,Negative,,
+92,Owkin_115,Gastric_115_2,09/2022,Biopsy,Cardia,None,N3,М0,,Signet ring,Positive,nan, 
+93,Owkin_116,Gastric_116_2,02/2024,Biopsy,Corpus,T4a,Uk, ,,Intestinal,None,None,nan
+94,Owkin_117,Gastric_117_2,01/2024,Biopsy,nan,T4,N3a,nan,"Low grade (well differentiated, moderately differentiated)",None,nan,nan,
+95,Owkin_119,Gastric_119,05/2024,Biopsy, , ,N3b,Uk,nan,Mucinous, ,nan,Uk
+96,Owkin_122,Gastric_122,07/2018,Biopsy,Uk,T4а,N0,nan,Uk,Mucinous,,Uk, 
+97,,,,,,,,,,,,,
+98,Owkin_124,Gastric_124_3,09/2021,Biopsy,,Т3,nan,None,,poorly cohesive, ,, 
+99,Owkin_125,Gastric_125,05/2019,Biopsy,None,T4b,nan,, ,nan, ,None,Uk
+100,Owkin_126,Gastric_126,10/2016,Biopsy,Uk,T3,,М0,,nan,Uk,Negative,nan
+101,Owkin_128,Gastric_128,05/2018,Biopsy,nan,nan,nan,Uk,nan,nan,Negative, ,Uk
+102,Owkin_129,Gastric_129,11/2017,Biopsy,Corpus,Uk,nan,,"High grade (poorly differentiated, undifferentiated)",Signet ring,None,Positive,nan
+103,Owkin_130,Gastric_130,06/2016,Biopsy,Antrum,T4a,N0,M1,"Low grade (well differentiated, moderately differentiated)",Intestinal,nan,None, 
+104,Owkin_131,Gastric_131,12/2023,Biopsy,Cardia,Uk,N3b,nan,,None,Uk,Uk,Uk
+105,Owkin_132,Gastric_132,11/2015,Biopsy,Corpus,T4а,N3a,Uk,,Mucinous,,nan, 
+106,,,,,,,,,,,,,
+107,Owkin_134,Gastric_134,06/2020,Biopsy,Antrum/pylorus,T4,N2,М0, ,Intestinal,Positive,,Uk
+108,Owkin_135,Gastric_135,06/2021,Biopsy,Uk,Т1а, ,None,None,Poorly cohesive, ,Negative,
+109,Owkin_136,Gastric_136_3,04/2016,Biopsy,,T3,None,None, ,Mucinous, ,Uk,nan
+110,Owkin_137,Gastric_137_3,07/2024,Biopsy, ,T2,N2,Uk,Low grade,Mucinous, ,Negative,None
+111,Owkin_138,Gastric_138,08/2023,Biopsy,Antrum,T1,N3,М0,,Uk,,Uk, 
+112,Owkin_139,Gastric_139_2,01/2022,Biopsy,Antrum/pylorus,T4b,N3а,Uk,Low grade,nan,Negative,Uk,No
+113,Owkin_140,Gastric_140,05/2020,Biopsy,Corpus,None, ,None,None,None, ,nan,No
+114,Owkin_141,Gastric_141,06/2016,Biopsy,,T2,N3a, ,Low grade,Intestinal,Negative,,No
+115,Owkin_142,Gastric_142,07/2023,Biopsy,,T3,Uk,None,Low grade,Uk,nan,Positive, 
+116,Owkin_143,Gastric_143,12/2021,Biopsy,Uk,None,Uk,None,,Uk,Uk,,No
+117,Owkin_144,Gastric_144_2,09/2015,Biopsy,Antrum/pylorus,T4a,None,М1,"High grade (poorly differentiated, undifferentiated)",,,Negative,Uk
+118,Owkin_145,Gastric_145_2,03/2018,Biopsy,None,nan,N3a,М1,,None,Uk,None,
+119,Owkin_146,Gastric_146,04/2024,Biopsy,,T1b,N3a,M1, ,Signet ring,Negative,Uk,None
+120,Owkin_147,Gastric_147,12/2020,Biopsy,Corpus,Т3, ,M1,"Low grade (well differentiated, moderately differentiated)", ,Uk,Positive,None
+121,Owkin_148,Gastric_148,09/2024,Biopsy,Cardia,T4b,None,М0,"Low grade (well differentiated, moderately differentiated)",Poorly cohesive,nan,Positive,nan
+122,Owkin_149,Gastric_149,06/2021,Biopsy,,T1b,N3а,M1,None,Poorly cohesive,Positive,nan, 
+123,Owkin_150,Gastric_150_2,08/2020,Biopsy,Cardia,T4а,N0,nan,nan,nan, ,Positive,Uk
+124,Owkin_152,Gastric_152,02/2024,Biopsy, ,T1b,None,,,,Positive,Uk,
+125,Owkin_153,Gastric_153_2,12/2016,Biopsy,Corpus,T4а,N0,M0,Uk,None,None,Positive,
+126,Owkin_154,Gastric_154_2,11/2016,Biopsy, , ,N3а,M0, ,Poorly cohesive,Positive,nan,
+127,,,,,,,,,,,,,
+128,,,,,,,,,,,,,
+129,Owkin_157,Gastric_157,01/2016,Biopsy,None,Т3,N1,None,Uk,None, ,Uk,None
+130,Owkin_159,Gastric_159,08/2021,Biopsy,None,T4b, ,М1,nan,Poorly cohesive,,None,nan
+131,Owkin_160,Gastric_160,08/2019,Biopsy,Antrum/pylorus,T4а,N3b,M1,None,None,None,nan, 
+132,Owkin_161,Gastric_161,09/2018,Biopsy,Antrum,T1b, ,M0,Low grade,nan,Negative,nan, 
+133,Owkin_162,Gastric_162,02/2023,Biopsy,Cardia,, ,М0,,Signet ring, ,, 
+134,Owkin_163,Gastric_163,06/2016,Biopsy,Antrum,nan,N1,М1,"High grade (poorly differentiated, undifferentiated)",Mucinous, , , 
+135,Owkin_164,Gastric_164,01/2024,Biopsy, ,T3,N1,nan, ,Uk,Negative,nan,
+136,Owkin_165,Gastric_165,09/2017,Biopsy,Cardia,T4b,N3b,M1,"High grade (poorly differentiated, undifferentiated)",Intestinal,,Positive,nan
+137,Owkin_166,Gastric_166,01/2022,Biopsy, ,nan,Uk,М1,None,None,None,Negative,None
+138,Owkin_167,Gastric_167,12/2022,Biopsy,Antrum/pylorus,nan,None,,Low grade,None,nan,Positive,No
+139,Owkin_168,Gastric_168,10/2018,Biopsy,Corpus,Uk,N1, ,Uk, ,Negative,nan,Uk
+140,Owkin_169,Gastric_169,01/2023,Biopsy,Corpus,Uk,,М0, ,Uk,nan,Uk,Uk
+141,Owkin_170,Gastric_170,10/2020,Biopsy,Antrum/pylorus,T1b,N3b,,None,Signet ring, , ,
+142,Owkin_171,Gastric_171,08/2017,Biopsy,Antrum/pylorus,Uk,,None, ,Mucinous,Negative,None,None
+143,Owkin_172,Gastric_172,10/2019,Biopsy,Antrum,nan,N1,М1,,Signet ring,Positive,Uk,nan
+144,Owkin_173,Gastric_173,12/2018,Biopsy,Antrum, ,N3a,М1,None,Signet ring,,Negative,
+145,Owkin_174,Gastric_174,09/2016,Biopsy,None,T1,nan,Uk,nan,Poorly cohesive, ,Uk,
+146,Owkin_175,Gastric_175,03/2015,Biopsy,Cardia,T1b,N3a,M0,"High grade (poorly differentiated, undifferentiated)",Mucinous,Positive,None,nan
+147,,,,,,,,,,,,,

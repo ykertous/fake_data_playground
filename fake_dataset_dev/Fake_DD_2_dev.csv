@@ -1,0 +1,19 @@
+Modality,Category,Subcategory,Time Point,Priority,Variable,Variable description,Format/Unit,Data type,Possible values,Logic (Condition),Logic item,Logic action,Logic value,Comments,Tab name
+Tabular data,Clinical,Observation,Baseline,Essential,Center,Name of center,N/A,text,Owkin; Externe,,,,,,EHR_Data
+Tabular data,Clinical,Observation,Baseline,Essential,Date of Birth,Patient's date of birth,MM/YYYY,date,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Observation,Baseline,High Priority,Sex,Patient's gender,N/A,select (one),M; F,,,,,,EHR_Data
+Tabular data,Clinical,Outcomes,Baseline,Essential,Date of Diagnosis,Initial date of disease identification,MM/YYYY,date,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Condition,Baseline,High Priority,Smoking History,Patient's self-reported smoking status,N/A,select (one),Heavy; Former; Non smoker; Unknown,,,,,,EHR_Data
+Tabular data,Clinical,Chemistry,Baseline,Low Priority,Pack Years (PA),Patient's self-reported number of packs per day,N/A,number,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Hematology,Baseline,High Priority,Type of Treatment,Type of treatment or therapy,N/A,select (one),Target Therapy; Chemo; IO,,,,,,EHR_Data
+Tabular data,Clinical,Microbiology,Baseline,Essential,Name of Treatment,Name of treatment,N/A,text,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Chemotherapy,Baseline,Low Priority,Line of Treatment,Order of treatment in all treatments,N/A,number,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Chemotherapy,Baseline + Follow-up(s),High Priority,Date of PSA Level Measurement,Date of PSA level Measurement,MM/YYYY,date,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Chemotherapy,Baseline + Follow-up(s),Essential,PSA Level,Result of PSA level,ng/mL,number,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Chemotherapy,Baseline + Follow-up(s),High Priority,Lab Value 1,Result of lab test 1,N/A,number,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Sample data,Baseline,Low Priority,Lab Value 2,Result of lab test 2,N/A,number,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Sample data,Baseline,Low Priority,Lab Value 3,Result of lab test 3,N/A,number,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Sample data,Baseline,Essential,Date of Biopsy,Date of biopsy,MM/YYYY,date,N/A,,,,,,EHR_Data
+Tabular data,Clinical,Sample data,Baseline,Essential,Biopsy Status,Location of biopsy,N/A,select (one),Lung; Lymph nodes; Bone; Brain,,,,,,EHR_Data
+Tabular data,Clinical,Sample data,Baseline,Essential,Status,Vital status at last follow-up,N/A,select (one),Dead; Alive,,,,,,EHR_Data
+Tabular data,Clinical,Sample data,Baseline,Unidentified,Children,Vital status at last follow-up,N/A,select (one),Yes; No,,,,,,EHR_Data

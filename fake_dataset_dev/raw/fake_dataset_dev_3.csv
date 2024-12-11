@@ -1,0 +1,14 @@
+Category,-Omics,-Omics.1,-Omics.2,-Omics.3,-Omics.4,-Omics.5,-Omics.6,-Omics.7,-Omics.8,-Omics.9,-Omics.10,-Omics.11,-Omics.12,-Omics.13,-Omics.14,-Omics.15,-Omics.16,-Omics.17,-Omics.18
+Subcategory,Raw data,Raw data,Raw data,Raw data,Raw data,Mutations,Mutations,Mutations,Mutations,Mutations,Mutations,Mutations,Mutations,Mutations,Mutations,Raw data,Raw data,Raw data,Raw data
+Single/Multiple entry,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single,Single
+Variable description,,,,,,,,,,,,,,,,,,,
+Format/Unit,,,,,,,,,,,,,,,,DD/MM/YYYY,DD/MM/YYYY,DD/MM/YYYY,DD/MM/YYYY
+Data type,text,select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (one),select (multiple),text,date,date,date,date
+Possible values,,Yes; No,Yes; No,Yes; No,Yes; No,Yes; No; Unknown,Yes; No; Unknown,Yes; No; Unknown,Yes; No; Unknown,Yes; No; Unknown,Yes; No; Unknown,Yes; No; Unknown,Yes; No; Unknown,TP53; MLH1; MSH2; MSH6; PMS2; Other mutation; Unknown: No,,,,,
+Priority,High Priority,High Priority,High Priority,High Priority,High Priority,Low Priority,Low Priority,Low Priority,Low Priority,Low Priority,Low Priority,Low Priority,Low Priority,Low Priority,High Priority,High Priority,High Priority,High Priority,High Priority
+Logic (Condition),,,,,,,,,,,,,,,If MMR mutation = Other,if RNA-seq data availability = Yes,if Gene Pannel availability = Yes,if WES availability = Yes,if WGS availability = Yes
+Logic item,,,,,,,,,,,,,,,MMR mutation,RNA-seq data availability,Gene panel availability,WES availability,WGS availability
+Logic action,,,,,,,,,,,,,,,0,0,0,0,0
+Logic value,,,,,,,,,,,,,,,Other,Yes,Yes,Yes,Yes
+Tab name,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics,-Omics
+Patient ID,Tissue NGS analysis site,RNA-seq data availability,Gene panel availability,WES availability,WGS availability,p53 mutation,FGFR2 mutation,FGFR3 mutation,FGFR3 fusion,BRCA1 mutation,BRCA2 mutation,RB1 mutation,ERCC2 mutation,MMR mutation,Other MMR mutations : specify,RNA-seq data date of collection,Gene panel date of collection,WES date of collection,WGS date of collection
